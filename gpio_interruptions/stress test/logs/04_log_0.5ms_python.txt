@@ -1,0 +1,287 @@
+GPIO interruptions on Pi
+0:00:00.701436 : counters pin 5 ->          8  losses-> 2 2
+0:00:00.701436 : counters pin 12->          8  losses-> 2 2
+0:00:01.704100 : counters pin 5 ->          8  losses-> 2 4
+0:00:01.704100 : counters pin 12->          8  losses-> 2 4
+0:00:02.706618 : counters pin 5 ->          8  losses-> 2 6
+0:00:02.706618 : counters pin 12->          8  losses-> 2 6
+0:00:03.709146 : counters pin 5 ->          8  losses-> 2 8
+0:00:03.709146 : counters pin 12->          8  losses-> 2 8
+0:00:04.812148 : counters pin 5 ->          8  losses-> 2 10
+0:00:04.812148 : counters pin 12->          8  losses-> 2 10
+0:00:05.814700 : counters pin 5 ->          8  losses-> 2 12
+0:00:05.814700 : counters pin 12->          8  losses-> 2 12
+0:00:06.817319 : counters pin 5 ->          8  losses-> 2 14
+0:00:06.817319 : counters pin 12->          8  losses-> 2 14
+0:00:07.819605 : counters pin 5 ->         10  losses-> 0 14
+0:00:07.819605 : counters pin 12->         10  losses-> 0 14
+0:00:08.821558 : counters pin 5 ->          8  losses-> 2 16
+0:00:08.821558 : counters pin 12->          8  losses-> 2 16
+0:00:09.924537 : counters pin 5 ->          8  losses-> 2 18
+0:00:09.924537 : counters pin 12->          8  losses-> 2 18
+0:00:10.926510 : counters pin 5 ->          8  losses-> 2 20
+0:00:10.926510 : counters pin 12->          8  losses-> 2 20
+0:00:11.928769 : counters pin 5 ->          8  losses-> 2 22
+0:00:11.928769 : counters pin 12->          8  losses-> 2 22
+0:00:12.931238 : counters pin 5 ->          8  losses-> 2 24
+0:00:12.931238 : counters pin 12->          8  losses-> 2 24
+0:00:13.933572 : counters pin 5 ->          8  losses-> 2 26
+0:00:13.933572 : counters pin 12->          8  losses-> 2 26
+0:00:15.035983 : counters pin 5 ->          8  losses-> 2 28
+0:00:15.035983 : counters pin 12->          8  losses-> 2 28
+0:00:16.038370 : counters pin 5 ->          8  losses-> 2 30
+0:00:16.038370 : counters pin 12->          8  losses-> 2 30
+0:00:17.040648 : counters pin 5 ->          8  losses-> 2 32
+0:00:17.040648 : counters pin 12->          8  losses-> 2 32
+0:00:18.042972 : counters pin 5 ->          8  losses-> 2 34
+0:00:18.042972 : counters pin 12->          8  losses-> 2 34
+0:00:19.045466 : counters pin 5 ->          8  losses-> 2 36
+0:00:19.045466 : counters pin 12->          8  losses-> 2 36
+0:00:20.147957 : counters pin 5 ->          8  losses-> 2 38
+0:00:20.147957 : counters pin 12->          8  losses-> 2 38
+0:00:21.150257 : counters pin 5 ->          8  losses-> 2 40
+0:00:21.150257 : counters pin 12->          8  losses-> 2 40
+0:00:22.152889 : counters pin 5 ->          8  losses-> 2 42
+0:00:22.152889 : counters pin 12->          8  losses-> 2 42
+0:00:23.155257 : counters pin 5 ->          8  losses-> 2 44
+0:00:23.155257 : counters pin 12->          8  losses-> 2 44
+0:00:24.157624 : counters pin 5 ->          8  losses-> 2 46
+0:00:24.157624 : counters pin 12->          8  losses-> 2 46
+0:00:25.260529 : counters pin 5 ->          8  losses-> 2 48
+0:00:25.260529 : counters pin 12->          8  losses-> 2 48
+0:00:26.262877 : counters pin 5 ->          8  losses-> 2 50
+0:00:26.262877 : counters pin 12->          8  losses-> 2 50
+0:00:27.265233 : counters pin 5 ->          8  losses-> 2 52
+0:00:27.265233 : counters pin 12->          8  losses-> 2 52
+0:00:28.267544 : counters pin 5 ->          8  losses-> 2 54
+0:00:28.267544 : counters pin 12->          8  losses-> 2 54
+0:00:29.269920 : counters pin 5 ->          8  losses-> 2 56
+0:00:29.269920 : counters pin 12->          8  losses-> 2 56
+0:00:30.372464 : counters pin 5 ->          8  losses-> 2 58
+0:00:30.372464 : counters pin 12->          8  losses-> 2 58
+0:00:31.374747 : counters pin 5 ->          8  losses-> 2 60
+0:00:31.374747 : counters pin 12->         10  losses-> 0 58
+0:00:32.377069 : counters pin 5 ->          8  losses-> 2 62
+0:00:32.377069 : counters pin 12->          8  losses-> 2 60
+0:00:33.379472 : counters pin 5 ->          8  losses-> 2 64
+0:00:33.379472 : counters pin 12->          8  losses-> 2 62
+0:00:34.381821 : counters pin 5 ->          8  losses-> 2 66
+0:00:34.381821 : counters pin 12->          8  losses-> 2 64
+0:00:35.484358 : counters pin 5 ->          8  losses-> 2 68
+0:00:35.484358 : counters pin 12->          8  losses-> 2 66
+0:00:36.486608 : counters pin 5 ->          8  losses-> 2 70
+0:00:36.486608 : counters pin 12->          8  losses-> 2 68
+0:00:37.488973 : counters pin 5 ->          8  losses-> 2 72
+0:00:37.488973 : counters pin 12->          8  losses-> 2 70
+0:00:38.491296 : counters pin 5 ->          8  losses-> 2 74
+0:00:38.491296 : counters pin 12->          8  losses-> 2 72
+0:00:39.493606 : counters pin 5 ->          8  losses-> 2 76
+0:00:39.493606 : counters pin 12->          8  losses-> 2 74
+0:00:40.596038 : counters pin 5 ->          8  losses-> 2 78
+0:00:40.596038 : counters pin 12->         10  losses-> 0 74
+0:00:41.598240 : counters pin 5 ->          8  losses-> 2 80
+0:00:41.598240 : counters pin 12->          8  losses-> 2 76
+0:00:42.600499 : counters pin 5 ->          8  losses-> 2 82
+0:00:42.600499 : counters pin 12->          8  losses-> 2 78
+0:00:43.602753 : counters pin 5 ->          8  losses-> 2 84
+0:00:43.602753 : counters pin 12->          8  losses-> 2 80
+0:00:44.605098 : counters pin 5 ->          8  losses-> 2 86
+0:00:44.605098 : counters pin 12->          8  losses-> 2 82
+0:00:45.707679 : counters pin 5 ->          8  losses-> 2 88
+0:00:45.707679 : counters pin 12->          8  losses-> 2 84
+0:00:46.710034 : counters pin 5 ->          8  losses-> 2 90
+0:00:46.710034 : counters pin 12->          8  losses-> 2 86
+0:00:47.712227 : counters pin 5 ->          8  losses-> 2 92
+0:00:47.712227 : counters pin 12->          8  losses-> 2 88
+0:00:48.714494 : counters pin 5 ->          8  losses-> 2 94
+0:00:48.714494 : counters pin 12->          8  losses-> 2 90
+0:00:49.716796 : counters pin 5 ->          8  losses-> 2 96
+0:00:49.716796 : counters pin 12->          8  losses-> 2 92
+0:00:50.819175 : counters pin 5 ->          8  losses-> 2 98
+0:00:50.819175 : counters pin 12->          8  losses-> 2 94
+0:00:51.821564 : counters pin 5 ->          8  losses-> 2 100
+0:00:51.821564 : counters pin 12->          8  losses-> 2 96
+0:00:52.824019 : counters pin 5 ->          8  losses-> 2 102
+0:00:52.824019 : counters pin 12->          8  losses-> 2 98
+0:00:53.826354 : counters pin 5 ->          8  losses-> 2 104
+0:00:53.826354 : counters pin 12->          8  losses-> 2 100
+0:00:54.829198 : counters pin 5 ->          8  losses-> 2 106
+0:00:54.829198 : counters pin 12->          8  losses-> 2 102
+0:00:55.931675 : counters pin 5 ->          8  losses-> 2 108
+0:00:55.931675 : counters pin 12->          8  losses-> 2 104
+0:00:56.937230 : counters pin 5 ->          8  losses-> 2 110
+0:00:56.937230 : counters pin 12->          8  losses-> 2 106
+0:00:57.939702 : counters pin 5 ->          8  losses-> 2 112
+0:00:57.939702 : counters pin 12->          8  losses-> 2 108
+0:00:58.942238 : counters pin 5 ->          8  losses-> 2 114
+0:00:58.942238 : counters pin 12->          8  losses-> 2 110
+0:00:59.944569 : counters pin 5 ->          8  losses-> 2 116
+0:00:59.944569 : counters pin 12->          8  losses-> 2 112
+0:01:01.048082 : counters pin 5 ->          8  losses-> 2 118
+0:01:01.048082 : counters pin 12->          8  losses-> 2 114
+0:01:02.050530 : counters pin 5 ->          6  losses-> 4 122
+0:01:02.050530 : counters pin 12->          6  losses-> 4 118
+0:01:03.052955 : counters pin 5 ->          8  losses-> 2 124
+0:01:03.052955 : counters pin 12->          8  losses-> 2 120
+0:01:04.067462 : counters pin 5 ->          8  losses-> 2 126
+0:01:04.067462 : counters pin 12->          8  losses-> 2 122
+0:01:05.069777 : counters pin 5 ->          8  losses-> 2 128
+0:01:05.069777 : counters pin 12->          8  losses-> 2 124
+0:01:06.072199 : counters pin 5 ->          8  losses-> 2 130
+0:01:06.072199 : counters pin 12->          8  losses-> 2 126
+0:01:07.174705 : counters pin 5 ->          8  losses-> 2 132
+0:01:07.174705 : counters pin 12->          8  losses-> 2 128
+0:01:08.177076 : counters pin 5 ->          8  losses-> 2 134
+0:01:08.177076 : counters pin 12->          8  losses-> 2 130
+0:01:09.180165 : counters pin 5 ->         10  losses-> 0 134
+0:01:09.180165 : counters pin 12->         10  losses-> 0 130
+0:01:10.182472 : counters pin 5 ->          8  losses-> 2 136
+0:01:10.182472 : counters pin 12->         10  losses-> 0 130
+0:01:11.184772 : counters pin 5 ->          8  losses-> 2 138
+0:01:11.184772 : counters pin 12->          8  losses-> 2 132
+0:01:12.287300 : counters pin 5 ->          8  losses-> 2 140
+0:01:12.287300 : counters pin 12->          8  losses-> 2 134
+0:01:13.289715 : counters pin 5 ->          8  losses-> 2 142
+0:01:13.289715 : counters pin 12->          8  losses-> 2 136
+0:01:14.292010 : counters pin 5 ->          8  losses-> 2 144
+0:01:14.292010 : counters pin 12->          8  losses-> 2 138
+0:01:15.294355 : counters pin 5 ->          8  losses-> 2 146
+0:01:15.294355 : counters pin 12->          8  losses-> 2 140
+0:01:16.296722 : counters pin 5 ->          8  losses-> 2 148
+0:01:16.296722 : counters pin 12->         10  losses-> 0 140
+0:01:17.399313 : counters pin 5 ->          8  losses-> 2 150
+0:01:17.399313 : counters pin 12->          8  losses-> 2 142
+0:01:18.401679 : counters pin 5 ->          8  losses-> 2 152
+0:01:18.401679 : counters pin 12->          8  losses-> 2 144
+0:01:19.404037 : counters pin 5 ->          8  losses-> 2 154
+0:01:19.404037 : counters pin 12->         10  losses-> 0 144
+0:01:20.406451 : counters pin 5 ->          8  losses-> 2 156
+0:01:20.406451 : counters pin 12->          8  losses-> 2 146
+0:01:21.408824 : counters pin 5 ->          8  losses-> 2 158
+0:01:21.408824 : counters pin 12->          8  losses-> 2 148
+0:01:22.511399 : counters pin 5 ->          8  losses-> 2 160
+0:01:22.511399 : counters pin 12->          8  losses-> 2 150
+0:01:23.513883 : counters pin 5 ->          8  losses-> 2 162
+0:01:23.513883 : counters pin 12->          8  losses-> 2 152
+0:01:24.516325 : counters pin 5 ->          6  losses-> 4 166
+0:01:24.516325 : counters pin 12->          6  losses-> 4 156
+0:01:25.518599 : counters pin 5 ->          8  losses-> 2 168
+0:01:25.518599 : counters pin 12->         10  losses-> 0 156
+0:01:26.520916 : counters pin 5 ->          8  losses-> 2 170
+0:01:26.520916 : counters pin 12->          8  losses-> 2 158
+0:01:27.623775 : counters pin 5 ->          8  losses-> 2 172
+0:01:27.623775 : counters pin 12->          8  losses-> 2 160
+0:01:28.626031 : counters pin 5 ->          8  losses-> 2 174
+0:01:28.626031 : counters pin 12->         10  losses-> 0 160
+0:01:29.628349 : counters pin 5 ->          8  losses-> 2 176
+0:01:29.628349 : counters pin 12->          8  losses-> 2 162
+0:01:30.630714 : counters pin 5 ->          8  losses-> 2 178
+0:01:30.630714 : counters pin 12->          8  losses-> 2 164
+0:01:31.632974 : counters pin 5 ->         10  losses-> 0 178
+0:01:31.632974 : counters pin 12->         10  losses-> 0 164
+0:01:32.736715 : counters pin 5 ->          8  losses-> 2 180
+0:01:32.736715 : counters pin 12->          8  losses-> 2 166
+0:01:33.739123 : counters pin 5 ->          8  losses-> 2 182
+0:01:33.739123 : counters pin 12->          8  losses-> 2 168
+0:01:34.741355 : counters pin 5 ->         10  losses-> 0 182
+0:01:34.741355 : counters pin 12->         10  losses-> 0 168
+0:01:35.743745 : counters pin 5 ->          8  losses-> 2 184
+0:01:35.743745 : counters pin 12->          8  losses-> 2 170
+0:01:36.746126 : counters pin 5 ->          8  losses-> 2 186
+0:01:36.746126 : counters pin 12->          8  losses-> 2 172
+0:01:37.849139 : counters pin 5 ->          8  losses-> 2 188
+0:01:37.849139 : counters pin 12->          8  losses-> 2 174
+0:01:38.851463 : counters pin 5 ->          8  losses-> 2 190
+0:01:38.851463 : counters pin 12->          8  losses-> 2 176
+0:01:39.853917 : counters pin 5 ->          8  losses-> 2 192
+0:01:39.853917 : counters pin 12->          8  losses-> 2 178
+0:01:40.856261 : counters pin 5 ->          8  losses-> 2 194
+0:01:40.856261 : counters pin 12->         10  losses-> 0 178
+0:01:41.858577 : counters pin 5 ->          8  losses-> 2 196
+0:01:41.858577 : counters pin 12->          8  losses-> 2 180
+0:01:42.861151 : counters pin 5 ->          8  losses-> 2 198
+0:01:42.861151 : counters pin 12->          8  losses-> 2 182
+0:01:43.963460 : counters pin 5 ->         10  losses-> 0 198
+0:01:43.963460 : counters pin 12->         10  losses-> 0 182
+0:01:44.965732 : counters pin 5 ->          8  losses-> 2 200
+0:01:44.965732 : counters pin 12->          8  losses-> 2 184
+0:01:45.968167 : counters pin 5 ->          8  losses-> 2 202
+0:01:45.968167 : counters pin 12->          8  losses-> 2 186
+0:01:46.970521 : counters pin 5 ->         10  losses-> 0 202
+0:01:46.970521 : counters pin 12->         10  losses-> 0 186
+0:01:47.972791 : counters pin 5 ->          8  losses-> 2 204
+0:01:47.972791 : counters pin 12->          8  losses-> 2 188
+0:01:49.075554 : counters pin 5 ->          8  losses-> 2 206
+0:01:49.075554 : counters pin 12->          8  losses-> 2 190
+0:01:50.077835 : counters pin 5 ->          8  losses-> 2 208
+0:01:50.077835 : counters pin 12->          8  losses-> 2 192
+0:01:51.080078 : counters pin 5 ->          8  losses-> 2 210
+0:01:51.080078 : counters pin 12->          8  losses-> 2 194
+0:01:52.082850 : counters pin 5 ->          8  losses-> 2 212
+0:01:52.082850 : counters pin 12->          8  losses-> 2 196
+0:01:53.084884 : counters pin 5 ->          8  losses-> 2 214
+0:01:53.084884 : counters pin 12->          8  losses-> 2 198
+0:01:54.187312 : counters pin 5 ->          8  losses-> 2 216
+0:01:54.187312 : counters pin 12->          8  losses-> 2 200
+0:01:55.189885 : counters pin 5 ->          8  losses-> 2 218
+0:01:55.189885 : counters pin 12->          8  losses-> 2 202
+0:01:56.192459 : counters pin 5 ->          8  losses-> 2 220
+0:01:56.192459 : counters pin 12->          8  losses-> 2 204
+0:01:57.194795 : counters pin 5 ->          8  losses-> 2 222
+0:01:57.194795 : counters pin 12->          8  losses-> 2 206
+0:01:58.197502 : counters pin 5 ->          8  losses-> 2 224
+0:01:58.197502 : counters pin 12->          8  losses-> 2 208
+0:01:59.300110 : counters pin 5 ->          8  losses-> 2 226
+0:01:59.300110 : counters pin 12->          8  losses-> 2 210
+0:02:00.302553 : counters pin 5 ->          8  losses-> 2 228
+0:02:00.302553 : counters pin 12->          8  losses-> 2 212
+0:02:01.304954 : counters pin 5 ->          8  losses-> 2 230
+0:02:01.304954 : counters pin 12->          8  losses-> 2 214
+0:02:02.307316 : counters pin 5 ->          8  losses-> 2 232
+0:02:02.307316 : counters pin 12->         10  losses-> 0 214
+0:02:03.309671 : counters pin 5 ->          8  losses-> 2 234
+0:02:03.309671 : counters pin 12->          8  losses-> 2 216
+0:02:04.412172 : counters pin 5 ->          8  losses-> 2 236
+0:02:04.412172 : counters pin 12->          8  losses-> 2 218
+0:02:05.414608 : counters pin 5 ->          8  losses-> 2 238
+0:02:05.414608 : counters pin 12->          8  losses-> 2 220
+0:02:06.417006 : counters pin 5 ->          8  losses-> 2 240
+0:02:06.417006 : counters pin 12->          8  losses-> 2 222
+0:02:07.419277 : counters pin 5 ->          8  losses-> 2 242
+0:02:07.419277 : counters pin 12->          8  losses-> 2 224
+0:02:08.421530 : counters pin 5 ->          8  losses-> 2 244
+0:02:08.421530 : counters pin 12->          8  losses-> 2 226
+0:02:09.524133 : counters pin 5 ->          8  losses-> 2 246
+0:02:09.524133 : counters pin 12->          8  losses-> 2 228
+0:02:10.526490 : counters pin 5 ->          8  losses-> 2 248
+0:02:10.526490 : counters pin 12->          8  losses-> 2 230
+0:02:11.528763 : counters pin 5 ->          8  losses-> 2 250
+0:02:11.528763 : counters pin 12->         10  losses-> 0 230
+0:02:12.531091 : counters pin 5 ->          2  losses-> 8 258
+0:02:12.531091 : counters pin 12->          6  losses-> 4 234
+0:02:13.533377 : counters pin 5 ->          8  losses-> 2 260
+0:02:13.533377 : counters pin 12->          8  losses-> 2 236
+0:02:14.635956 : counters pin 5 ->          8  losses-> 2 262
+0:02:14.635956 : counters pin 12->          8  losses-> 2 238
+0:02:15.638373 : counters pin 5 ->          8  losses-> 2 264
+0:02:15.638373 : counters pin 12->          8  losses-> 2 240
+0:02:16.641340 : counters pin 5 ->         10  losses-> 0 264
+0:02:16.641340 : counters pin 12->         10  losses-> 0 240
+0:02:17.643606 : counters pin 5 ->          8  losses-> 2 266
+0:02:17.643606 : counters pin 12->          8  losses-> 2 242
+0:02:18.645876 : counters pin 5 ->          8  losses-> 2 268
+0:02:18.645876 : counters pin 12->          8  losses-> 2 244
+0:02:19.748316 : counters pin 5 ->          8  losses-> 2 270
+0:02:19.748316 : counters pin 12->          8  losses-> 2 246
+0:02:20.750770 : counters pin 5 ->          8  losses-> 2 272
+0:02:20.750770 : counters pin 12->          8  losses-> 2 248
+0:02:21.753412 : counters pin 5 ->          8  losses-> 2 274
+0:02:21.753412 : counters pin 12->          8  losses-> 2 250
+0:02:22.755573 : counters pin 5 ->         10  losses-> 0 274
+0:02:22.755573 : counters pin 12->         10  losses-> 0 250
+0:02:23.758156 : counters pin 5 ->          8  losses-> 2 276
+0:02:23.758156 : counters pin 12->          8  losses-> 2 252
+0:02:24.861059 : counters pin 5 ->         10  losses-> 0 276
+0:02:24.861059 : counters pin 12->         10  losses-> 0 252
+0:02:25.863585 : counters pin 5 ->          6  losses-> 4 280
+0:02:25.863585 : counters pin 12->          6  losses-> 4 256
